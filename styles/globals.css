@@ -1,16 +1,50 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #c7c7c7;
+  color: #333;
+  font-family: "Nunito";
 }
-
-a {
-  color: inherit;
+a:link, a:visited {
+  color: #c02800;
   text-decoration: none;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+ font-size: 16px;
+ cursor: pointer;
+ display: inline-block;
 }
-
-* {
-  box-sizing: border-box;
+a:hover, a:active {
+  background-color: #c02800;
+  color: #dbd8ce;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #c02800;
+}
+nav a {
+  margin-left: 12px;
+}
+nav .logo {
+  margin-right: auto;
+}
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  color: #c02800;
+  border-top: 1px solid #c02800;
 }
